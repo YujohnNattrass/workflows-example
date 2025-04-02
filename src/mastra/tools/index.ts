@@ -1,6 +1,6 @@
 import { createTool } from '@mastra/core/tools';
 import { z } from 'zod';
-
+console.log(`hello`)
 interface GeocodingResponse {
   results: {
     latitude: number;
